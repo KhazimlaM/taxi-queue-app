@@ -36,6 +36,12 @@ leaveElement.addEventListener('click',function (){
      
  });
 
+ departElement.addEventListener('click',function (){
+ 
+    myCounter -= 1;
+    counterElement.innerHTML = myCounter;
+     
+ });
 
 
 
