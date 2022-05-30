@@ -11,13 +11,13 @@ function TaxiQueue() {
 	}
 	}
 
-	function leaveQueue() {
+	function leaveQueue(passengerLeaves) {
        if(passengerLeaves){
 		   passenger.pop()
 	   }
 	}
 
-	function joinTaxiQueue() {
+	function joinTaxiQueue(taxi) {
       if(taxi){
         myCounter += 1;
         counterElement.innerHTML = myCounter;
