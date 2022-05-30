@@ -4,8 +4,8 @@ const count = document.querySelector(".count");
 const joinElement = document.querySelector(".join_queue");
 const leaveElement = document.querySelector(".leave_queue");
 
-const joinTaxiElement = document.querySelector(".taxi_queue");
-const counterElement = document.querySelector(".taxi");
+const joinTaxiElement = document.querySelector(".join_taxi_queue");
+const counterElement = document.querySelector(".taxi_queue_count");
 
 const departElement = document.querySelector(".departing")
 
@@ -29,7 +29,12 @@ leaveElement.addEventListener('click',function (){
      
  });
 
+ joinTaxiElement.addEventListener('click',function (){
  
+    myCounter += 1;
+    counterElement.innerHTML = myCounter;
+     
+ });
 
 
 
