@@ -6,7 +6,7 @@ function TaxiQueue() {
 
 	function joinQueue(passenger) {
 	if(myCounter = passenger){
-		myCounter += 1;
+		myCounter += myCounter.value;
 		count.innerHTML = myCounter;
 	}
 	}
