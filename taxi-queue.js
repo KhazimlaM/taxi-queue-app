@@ -2,12 +2,13 @@ function TaxiQueue() {
      var passenger = 0;
 	 var passengerLeaves = 0;
 	 var taxi = 0;
+	 var myCounter = 0;
 
-	function joinQueue() {
-		if(passenger){
-			passenger ++;
-		}
-   
+	function joinQueue(passenger) {
+	if(myCounter = passenger){
+		myCounter += 1;
+		count.innerHTML = myCounter;
+	}
 	}
 
 	function leaveQueue() {

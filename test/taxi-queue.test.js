@@ -5,12 +5,12 @@ describe('The taxi queue app', function() {
 		const taxiQueue = TaxiQueue();
 
 		taxiQueue.joinQueue();
-		taxiQueue.joinQueue();
-		taxiQueue.joinQueue();
-		taxiQueue.joinQueue();
-		taxiQueue.joinQueue();
+		// taxiQueue.joinQueue();
+		// taxiQueue.joinQueue();
+		// taxiQueue.joinQueue();
+		// taxiQueue.joinQueue();
 
-		assert.equal(5, taxiQueue.queueLength());
+		assert.equal(1, taxiQueue.queueLength());
 
 	});
 

@@ -40,7 +40,7 @@ leaveElement.addEventListener('click',function (){
  
     myCounter -= 1;
     counterElement.innerHTML = myCounter;
-     
+
  });
 
 
