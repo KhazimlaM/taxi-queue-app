@@ -19,7 +19,8 @@ function TaxiQueue() {
 
 	function joinTaxiQueue() {
       if(taxi){
-      taxi ++;
+        myCounter += 1;
+        counterElement.innerHTML = myCounter;
 	  }
 	}
 
