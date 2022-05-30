@@ -15,36 +15,36 @@ const taxiQueue = TaxiQueue();
 // DOM events
 var myCounter = 0;
 
-joinElement.addEventListener('click',function (){
- 
+joinElement.addEventListener('click', function () {
+
    myCounter += 1;
    count.innerHTML = myCounter;
-    
+
 });
 
-leaveElement.addEventListener('click',function (){
- 
-    myCounter -= 1;
-    count.innerHTML = myCounter;
-     
- });
+leaveElement.addEventListener('click', function () {
 
- joinTaxiElement.addEventListener('click',function (){
- 
-    myCounter += 1;
-    counterElement.innerHTML = myCounter;
-     
- });
+   myCounter -= 1;
+   count.innerHTML = myCounter;
 
- departElement.addEventListener('click',function (){
- 
-    myCounter -= 1;
-    counterElement.innerHTML = myCounter;
+});
 
- });
+joinTaxiElement.addEventListener('click', function () {
+
+   myCounter += 1;
+   counterElement.innerHTML = myCounter;
+
+});
+
+departElement.addEventListener('click', function () {
+
+   myCounter -= 1;
+   counterElement.innerHTML = myCounter;
+
+});
 
 
 
- 
+
 
 
